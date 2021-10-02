@@ -1,0 +1,18 @@
+@import '../../styles/common';
+
+.PositionedOverlay {
+  position: absolute;
+  z-index: z-index(overlay);
+}
+
+.fixed {
+  position: fixed;
+}
+
+.calculating {
+  visibility: hidden;
+}
+
+.preventInteraction {
+  pointer-events: none;
+}
